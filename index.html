@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>salut</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <script src="./scripts/jquery-3.2.1.slim.min.js" charset="utf-8"></script>
+  <script src="./scripts/jquery.marquee.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <section class="projets">
+  <article class="projet projet-1">
+    <a  onmouseover="document.recoller.src='imagesindex/nuitmouse.jpg'"
+        onmouseout="document.recoller.src='imagesindex/recoller.jpg'"
+        href="projet1.html#recoller"> <img src="imagesindex/recoller.jpg" name="recoller">
+    <h3>recoller les morceaux</h3></a>
+  </article>
+
+  <article class="projet projet-2">
+    <a  onmouseover="document.libremo.src='imagesindex/libremomouse.jpg'"
+        onmouseout="document.libremo.src='imagesindex/libremo.jpg'"
+        href="projet1.html#libremo">  <img src="imagesindex/libremo.jpg" name="libremo">
+    <h3>librémo</h3>
+  </article>
+
+  <article class="projet projet-3">
+    <a  onmouseover="document.savoir.src='http://fakeimg.pl/137x103'"
+        onmouseout="document.savoir.src='http://fakeimg.pl/137x103'"
+        href="projet1.html#savoir">  <img src="http://fakeimg.pl/137x103" name="savoir">
+    <h3>savoir faire</h3>
+  </article>
+
+  <article class="projet projet-4">
+    <a  onmouseover="document.catch.src='imagesindex/catchmouse.jpg'"
+        onmouseout="document.catch.src='imagesindex/catch.jpg'"
+        href="projet1.html#catch"> <img src="imagesindex/catch.jpg" name="catch">
+    <h3>true catch</h3></a>
+  </article>
+
+  <article class="projet projet-5">
+    <a  onmouseover="document.onanisme.src='imagesindex/onanismemouse.jpg'"
+        onmouseout="document.onanisme.src='imagesindex/onanisme.jpg'"
+        href="projet1.html#onanisme"> <img src="imagesindex/onanisme.jpg" name="onanisme">
+    <h3>onanisme</h3>
+  </article>
+
+  <article class="projet projet-6">
+    <a  onmouseover="document.pagesfroides.src='imagesindex/pagesfroidesmouse.jpg'"
+        onmouseout="document.pagesfroides.src='imagesindex/pagesfroides.jpg'"
+        href="projet1.html#pages">  <img src="imagesindex/pagesfroides.jpg" name="pagesfroides">
+    <h3>pages froides</h3>
+  </article>
+
+  <article class="projet projet-7">
+    <a  onmouseover="document.dessins.src='imagesindex/dessinsmouse.jpg'"
+        onmouseout="document.dessins.src='imagesindex/dessins.jpg'"
+        href="projet1.html#dessins">  <img src="imagesindex/dessins.jpg" name="dessins">
+    <h3>dessins</h3>
+  </article>
+
+  <article class="projet projet-8">
+    <a  onmouseover="document.qms.src='imagesindex/qmsmouse.jpg'"
+        onmouseout="document.qms.src='imagesindex/qms.jpg'"
+        href="projet1.html#qms">  <img src="imagesindex/qms.jpg" name="qms">
+    <h3>quoi matière signe</h3>
+  </article>
+
+  <article class="projet projet-9">
+    <a  onmouseover="document.cesium.src='imagesindex/cesiummouse.jpg'"
+        onmouseout="document.cesium.src='imagesindex/cesium137.jpg'"
+        href="projet1.html#cesium">  <img src="imagesindex/cesium137.jpg" name="cesium">
+    <h3>césium 137</h3>
+  </article>
+
+  <article class="projet projet-10">
+    <a  onmouseover="document.lucienne.src='imagesindex/luciennemouse.jpg'"
+        onmouseout="document.lucienne.src='imagesindex/lucienne.jpg'"
+        href="projet1.html#lucienne">  <img src="imagesindex/lucienne.jpg" name="lucienne">
+    <h3>lucienne</h3>
+  </article>
+
+</section>
+
+<div class="bandeau">
+  <div class="bandeau-gauche">
+    <p>
+      <a href="file:///Users/inesgamboa/Desktop/CODE/SITE/cvgamboa.pdf"target="_blank">cv</a>/<a href="contact.html">contact</a>/<a href="index.html">accueil</a>
+    </p>
+  </div>
+  <div class="bandeau-droite">
+    <h2 class="defilant">ines gamboa - étudiante en DSAA design graphique à Toulouse - à la recherche d'un stage - </h2>
+  </div>
+</div>
+
+<script type="text/javascript">
+$('.defilant').marquee({
+  duration: 4000,
+  gap: 50,
+  delayBeforeStart: 0,
+  direction: 'left',
+  duplicated: true
+});
+$('.defilant').css('width', 'auto');
+</script>
+</body>
+</html>
