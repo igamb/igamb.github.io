@@ -66,11 +66,11 @@ align-items: center;
   left: 100%;
   width: 200px;
   margin:0;
-    transform: rotate(-28deg) translateY(-40px) translateX(-41px);
-      transform-origin:bottom left;
-  font-family: 'sporting_grotesqueregular';
-  font-size: 7pt;
-  cursor; help;
+  transform: rotate(-28deg) translateY(-40px) translateX(-41px);
+  transform-origin:bottom left;
+  font-family: 'Sporting Grotesque_Regular';
+  font-size: 7px;
+  cursor: help;
 }
 
 
