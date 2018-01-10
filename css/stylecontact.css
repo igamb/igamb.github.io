@@ -2,6 +2,12 @@ html {
   background: rgb(150,249,186);
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  cursor: url(../001p.ico), auto;
+}
+
 .yep {
   font-family: 'savateregular';
   font-size: 15px;

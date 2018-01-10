@@ -9,7 +9,7 @@ html{
 a {
   color: black;
   text-decoration: none;
-  cursor: help;
+  cursor: url(../001p.ico), auto;
 }
 
 .colonne-droite {
@@ -371,7 +371,7 @@ align-items: center;
 }
 .bandeau {
     position: fixed;
-    width: 105%;
+    width: 100%;
     top: 0;
     bottom: auto;
     left: 0;
