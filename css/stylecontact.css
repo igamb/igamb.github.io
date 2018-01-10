@@ -55,7 +55,7 @@ align-items: center;
 a {
   color: black;
   text-decoration: none;
-  cursor: help;
+  cursor: url(../001p.ico), auto;
 }
 
 @media screen and (max-width: 1050px) {
