@@ -5,6 +5,7 @@ html * {
 html{
   background: white;
 }
+<link rel="stylesheet" href="font/font.css">
 
 a {
   color: black;
