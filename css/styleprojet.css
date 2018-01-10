@@ -31,7 +31,7 @@ a {
 .colonne-droite h3  {
 transform: rotate(-28deg) translateX(0) translateY(20px);
 font-size: 10px;
-cursor: help;
+cursor: url(../001p.ico), auto;
 }
 
 .colonne-droite p  {
@@ -134,7 +134,7 @@ align-items: center;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  cursor: help;
+  cursor: url(../001p.ico), auto;
 }
 .contenu p {
   display: none;
