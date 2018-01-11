@@ -322,7 +322,7 @@ align-items: center;
   .colonne-droite h3 {
     transform: rotate(-28deg) translateX(0) translateY(20px);
     font-size: 9px;
-    cursor: help;
+    cursor: url(../001p.ico), auto;
 }
 .colonne-droite p {
     font-size: 8px;
@@ -356,8 +356,9 @@ align-items: center;
     z-index: 1000;
 }
 .colonne-droite h3 {
+    margin-left: 2px;
     font-size: 9px;
-    cursor: help;
+    cursor: url(../001p.ico), auto;
     transform: none;
 }
 .contenu.actif p {
@@ -366,9 +367,15 @@ align-items: center;
   transform: none;
 }
 .contenu.actif h3 {
+  align-items: top;
   margin-left: 50%;
   display: block;
 }
+
+.contenu h3 {
+  margin-top: 2px;
+}
+
 .bandeau {
     position: fixed;
     width: 100%;
@@ -382,22 +389,22 @@ align-items: center;
 
 .bandeau-gauche {
     border: 3px solid white;
-    padding: 4px 5px;
-    font-size: 9pt;
+    padding: 2px 5px;
+    font-size: 7pt;
     display: flex;
     align-items: center;
 }
 .bandeau-milieu {
     border: 3px solid white;
     border-left: none;
-    padding: 6px;
+    padding: 2px;
     flex-grow: 1;
     display: flex;
     align-items: center;
     font-size: 8pt;
     overflow: hidden;
     margin-right: 0px;
-    max-width: 52%;
+    max-width: 50%;
 }
 .bandeau-droite {
     border: 3px solid white;
@@ -407,7 +414,7 @@ align-items: center;
     align-items: center;
     font-size: 8pt;
     font-size: 6pt;
-    max-width: 60px;
+    max-width: 90px;
     overflow: hidden;
 }
 .boutons span {
