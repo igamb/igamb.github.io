@@ -6,6 +6,10 @@ html{
   background: white;
 }
 
+body {
+  margin: 0;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -97,7 +101,7 @@ align-items: center;
   left: 8%;
   top: 33px;
   width: 100%;
-
+  margin: 8px;
 }
 
 .photoproj img {
@@ -340,14 +344,15 @@ align-items: center;
 .colonne-droite {
     overflow: scroll;
     position: relative;
-    /* top: auto; */
+    top: auto;
+    padding: 10px 0;
     /* margin-top: 400px; */
     bottom: 0;
-    left: -7px;
+    left: 0;
     flex-wrap: wrap;
     /* bottom: 5px; */
     display: block;
-    width: 104%;
+    width: 100%;
     height: auto;
     border: 3px solid white;
     font-family: 'Sporting Grotesque_Regular';
@@ -361,14 +366,17 @@ align-items: center;
     cursor: url(../001p.ico), auto;
     transform: none;
 }
+.contenu.actif {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
 .contenu.actif p {
-  margin-left: 50%;
   display: block;
   transform: none;
 }
 .contenu.actif h3 {
   align-items: top;
-  margin-left: 50%;
   display: block;
 }
 
@@ -404,7 +412,6 @@ align-items: center;
     font-size: 8pt;
     overflow: hidden;
     margin-right: 0px;
-    max-width: 50%;
 }
 .bandeau-droite {
     border: 3px solid white;
