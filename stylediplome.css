@@ -15,7 +15,7 @@ body {
   float: right;
   margin-right: 5px;
   font-size: 18px;
-  font-family: 'compagnonlight'
+  font-family: compagnon;
 
 }
 a {
@@ -38,7 +38,7 @@ a.viewpic {
   text-decoration: none;
   position:relative;
   text-decoration: none;
-  font-family: 'compagnon';
+  font-family: compagnon;
   font-size: 16px;
   line-height: 21px;
   cursor: default;
