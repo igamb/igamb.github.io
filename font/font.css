@@ -26,3 +26,25 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'compagnonlight';
+    src:    url('Compagnon-Light.eot');
+    src:  url('Compagnon-Light.eot?#iefix') format('embedded-opentype'),
+          url('Compagnon-Light.woff2') format('woff2'),
+          url('Compagnon-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'compagnon';
+    src:    url('Compagnon-Roman.eot');
+    src:  url('Compagnon-Roman.eot?#iefix') format('embedded-opentype'),
+          url('Compagnon-Roman.woff2') format('woff2'),
+          url('Compagnon-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

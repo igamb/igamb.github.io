@@ -1,0 +1,124 @@
+
+
+body {
+  font-family: 'Trocchi', serif;
+  line-height: 22px;
+  color: black;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  cursor:  help;
+
+}
+
+.format{
+  float: right;
+  margin-right: 5px;
+  font-size: 18px;
+  font-family: 'compagnonlight'
+
+}
+a {
+  color: black;
+  text-decoration: underline;
+
+}
+
+.boitetexte {
+  width: 55%;
+  margin-left: 1%;
+  font-size: 14px;
+  position: absolute;
+  top: 8px;
+}
+
+/* photos */
+a.viewpic {
+  color: black;
+  text-decoration: none;
+  position:relative;
+  text-decoration: none;
+  font-family: 'compagnon';
+  font-size: 16px;
+  line-height: 21px;
+  cursor: default;
+}
+
+a:hover.viewpic {
+  text-decoration: none;
+  background: none;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+a.viewpic span {
+  display: none;
+  width: 35%;
+}
+
+a:hover.viewpic span {
+  float: right;
+  display: block;
+  position: fixed;
+  right: 0px;
+  top: 0%;
+  font-family: 'Trocchi';
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* texte à gauche */
+a.lexic {
+  color: black;
+  text-decoration: none;
+  position:relative;
+  text-decoration: none;
+  font-family: 'compagnon';
+  font-size: 16px;
+  line-height: 21px;
+  cursor: default;
+}
+
+a:hover.lexic {
+  text-decoration: none;
+  background: none;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+a.lexic span {
+  display: none;
+  width: 35%;
+}
+
+a:hover.lexic span {
+  float: right;
+  display: block;
+  position: fixed;
+  right: 0px;
+  top: 0%;
+  font-family: 'Trocchi';
+}
+
+
+
+/* vidéo */
+a.viewclick {
+  color: black;
+  text-decoration: none;
+  position:relative;
+  text-decoration: none;
+  font-family: 'compagnon';
+  font-size: 15px;
+}
+
+a span {
+  float: right;
+  display: none;
+  width: 0%;
+  font-family: 'Trocchi';
+  font-size: 12px;
+  line-height: 16px;
+}
