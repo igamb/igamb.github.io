@@ -18,14 +18,15 @@
     font-style: normal;
 }
 
+
 @font-face {
     font-family: 'savateregular';
     src: url('savate-regular-webfont.woff2') format('woff2'),
          url('savate-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 
 @font-face {
     font-family: 'compagnonlight';
@@ -35,16 +36,13 @@
           url('Compagnon-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 
 @font-face {
     font-family: 'compagnon';
-    src:    url('Compagnon-Roman.eot');
-    src:  url('Compagnon-Roman.eot?#iefix') format('embedded-opentype'),
-          url('Compagnon-Roman.woff2') format('woff2'),
+    src:  url('Compagnon-Roman.woff2') format('woff2'),
           url('Compagnon-Roman.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
