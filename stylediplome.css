@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: 'Trocchi', serif;
+  font-family: 'Trocchi';
   line-height: 22px;
   color: black;
   background-color: white;
@@ -14,9 +14,8 @@ body {
 .format{
   float: right;
   margin-right: 5px;
-  font-size: 18px;
-  font-family: compagnon;
-
+  font-family: 'BioRhyme Expanded', serif;
+  font-size: 16px;
 }
 a {
   color: black;
@@ -38,8 +37,8 @@ a.viewpic {
   text-decoration: none;
   position:relative;
   text-decoration: none;
-  font-family: compagnon;
-  font-size: 16px;
+  font-family: 'BioRhyme Expanded', serif;
+  font-size: 15px;
   line-height: 21px;
   cursor: default;
 }
@@ -74,8 +73,8 @@ a.lexic {
   text-decoration: none;
   position:relative;
   text-decoration: none;
-  font-family: 'compagnon';
-  font-size: 16px;
+  font-family: 'BioRhyme Expanded', serif;
+  font-size: 15px;
   line-height: 21px;
   cursor: default;
 }
@@ -110,7 +109,7 @@ a.viewclick {
   text-decoration: none;
   position:relative;
   text-decoration: none;
-  font-family: 'compagnon';
+  font-family: 'BioRhyme Expanded', serif;
   font-size: 15px;
 }
 
